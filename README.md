@@ -36,10 +36,8 @@ We simulate noisy random Clifford circuits with stochastic T-gate insertion.
 Key ingredients:
 
 - Frozen random Clifford backbone
-- Local Pauli kicks
 - Tunable T-gate density \( p_T \)
-- Deterministic depolarizing channel
-- Averaging over magic realizations
+- Depolarizing noise channel
 
 The core simulation is implemented in:
 
