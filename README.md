@@ -59,14 +59,7 @@ as a function of effective noise strength.
 
 <img src="figures/autocorrelation_function.png" width="700">
 
-Autocorrelation functions for different T-gate densities \( p_T \).
-
-Observations:
-
-- Increasing \( p_T \) modifies the curvature of the echo profile.
-- Noise suppresses high-weight operator contributions.
-- The observable is directly hardware-accessible.
-
+Autocorrelation functions for different T-gate densities $p_T$.
 These curves serve as the experimentally measurable input for operator-weight reconstruction.
 
 ---
@@ -79,9 +72,9 @@ Operator weight distributions inferred from the autocorrelation data.
 
 Key features:
 
-- Pure Clifford circuits (\( p_T = 0 \)) produce sharply peaked spectra.
-- Increasing \( p_T \) broadens the distribution.
-- Higher operator weight correlates with stronger non-stabilizerness.
+- Pure Clifford circuits $p_T = 0$ produce sharply peaked spectra.
+- Increasing $p_T$ broadens the distribution.
+- Higher operator weight correlates with stronger non-stabilizerness (magic).
 
 This demonstrates that magic growth manifests as systematic redistribution toward higher-weight sectors.
 
@@ -93,21 +86,19 @@ This demonstrates that magic growth manifests as systematic redistribution towar
 
 Entropy of the extracted weight spectrum versus T-gate density.
 
-- Entropy increases monotonically with \( p_T \).
-- Indicates growth of operator complexity.
+- Entropy increases monotonically with $p_T$.
 - Provides a quantitative proxy for magic under realistic noise.
 
-Such behavior is directly relevant for benchmarking non-Clifford resources in symmetry-constrained and noisy quantum processors.
+Such behavior is directly relevant for benchmarking non-Clifford resources in noisy quantum hardware.
 
 ---
 
 # 🏗 Technical Features
 
 - Full Hilbert-space operator simulation in Python
-- Frozen Clifford circuit sampling
+- Clifford circuit sampling
 - Monte Carlo averaging over magic realizations
-- Deterministic depolarizing channel implementation
-- NNLS-based spectral inversion framework
+- Depolarizing noise channel implementation
 - Scalable structure compatible with HPC workflows
 
 The current public release includes the autocorrelation simulation module. The full inversion and optimization pipeline is under active development.
