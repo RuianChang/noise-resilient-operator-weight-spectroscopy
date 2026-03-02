@@ -1,4 +1,4 @@
-# 🔬 Noise-Resilient Operator Weight Spectroscopy (NBOWS)
+# 🔬 Noise-based Operator Weight Spectroscopy (NBOWS)
 
 A simulation framework for extracting operator-weight spectra from experimentally measurable noisy echo sequences.
 
