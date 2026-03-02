@@ -134,7 +134,6 @@ This repository currently includes:
 Ongoing work includes:
 
 - Variance scaling analysis
-- Rényi entropy diagnostics
 - Finite-size crossover behavior
 - GPU acceleration
 - Experimental implementation pathway
