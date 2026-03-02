@@ -35,9 +35,9 @@ We simulate noisy random Clifford circuits with stochastic T-gate insertion.
 
 Key ingredients:
 
-- Frozen random Clifford backbone
+- Random Clifford circuits
 - Tunable T-gate density $p_T$
-- Depolarizing noise channel
+- Noise channel
 
 The core simulation is implemented in:
 
@@ -98,7 +98,7 @@ Such behavior is directly relevant for benchmarking non-Clifford resources in no
 - Full Hilbert-space operator simulation in Python
 - Clifford circuit sampling
 - Monte Carlo averaging over circuit realizations
-- Depolarizing noise channel implementation
+- Noise channel implementation
 - Scalable structure compatible with HPC workflows
 
 The current public release includes the autocorrelation simulation module. The full inversion and optimization pipeline is under active development.
