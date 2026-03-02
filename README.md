@@ -97,7 +97,7 @@ Such behavior is directly relevant for benchmarking non-Clifford resources in no
 
 - Full Hilbert-space operator simulation in Python
 - Clifford circuit sampling
-- Monte Carlo averaging over magic realizations
+- Monte Carlo averaging over circuit realizations
 - Depolarizing noise channel implementation
 - Scalable structure compatible with HPC workflows
 
