@@ -74,9 +74,9 @@ Key features:
 
 - Pure Clifford circuits $p_T = 0$ produce sharply peaked spectra.
 - Increasing $p_T$ broadens the distribution.
-- Higher operator weight correlates with stronger non-stabilizerness (magic).
+- Higher distribution variance correlates with stronger non-stabilizerness (magic).
 
-This demonstrates that magic growth manifests as systematic redistribution toward higher-weight sectors.
+This demonstrates that magic growth manifests as systematic redistribution toward higher variances.
 
 ---
 
