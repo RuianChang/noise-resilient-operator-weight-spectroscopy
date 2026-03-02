@@ -47,9 +47,7 @@ noise-resilient_operator-weight_spectroscopy.py
 
 The script computes the autocorrelation observable:
 
-\[
-C(\gamma) = \frac{1}{2^L} \mathrm{Tr}[P(\gamma)^2]
-\]
+$C(\gamma) = \frac{1}{2^L} \mathrm{Tr}[P(\gamma)^2]$
 
 as a function of effective noise strength.
 
