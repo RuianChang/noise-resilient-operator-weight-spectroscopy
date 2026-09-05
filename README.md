@@ -4,7 +4,7 @@ A simulation framework for extracting operator-weight spectra from experimentall
 
 This repository contains the classical simulation code for computing autocorrelation functions in noisy random Clifford circuits with tunable non-Clifford (T-gate) density. These autocorrelation profiles form the basis of a noise-resilient spectroscopy protocol for diagnosing operator growth and magic in quantum hardware.
 
-Note: This repository contains an earlier implementation of the Noise-Based Operator Weight Spectroscopy (NBOWS) project. The current version of the project uses Pauli propagation (implemented with PauliPropagation.jl) for scalable simulations of operator spreading in noisy quantum circuits. The updated research code is not yet publicly available.
+> **Note:** This repository contains an earlier implementation of the Noise-Based Operator Weight Spectroscopy (NBOWS) project. The current version uses Pauli propagation, implemented with [PauliPropagation.jl](https://github.com/MSRudolph/PauliPropagation.jl), for scalable simulations of operator spreading in noisy quantum circuits. The updated research code is not yet publicly available.
 
 ---
 
