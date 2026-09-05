@@ -148,6 +148,4 @@ Rui-An (Ryan) Chang
 PhD Candidate in Quantum Information Science  
 University of Texas at Austin  
 
-Research focus: quantum many-body dynamics, operator growth, benchmarking, and quantum advantage.
-
 ---
